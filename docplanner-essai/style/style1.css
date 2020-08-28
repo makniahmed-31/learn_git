@@ -1,0 +1,135 @@
+body{
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	margin-left: 14%;
+	margin-right: 14%;
+	font-size: 16px;
+}
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: .3px;
+}
+.container-1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+ul{
+	/*border:solid 1px bold; */
+	width:270px; 
+	margin:0;
+	font-size: .9375rem;
+    font-weight: 400;
+}
+.box2 ul li{
+	display: inline-block;
+	list-style-type: none;
+	margin: 10px;
+}
+.box2 ul li a:not(.about-us){
+	text-decoration: none;
+	color: #ababab;
+}
+a.about-us{
+	color: #00b39b;
+	text-decoration: none;
+}
+.box2 ul li a:hover{
+	color: #00b39b;
+}
+/* .dep{
+	/*cursor: pointer;
+	box-shadow: 0 5px 10px 0 #d3cfc9;*/
+.container-2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+div{
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.box21{
+	padding-top: 15px;
+}
+.box23{
+	display: flex;	
+	justify-content: space-between;
+}
+.box23 p {
+	flex-basis: 49%;
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    margin: .8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+}
+.container-3{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+.box31-container{
+	background: #00b39b;
+	flex-basis: 41%;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 1.375em 2.5em 0;
+}
+.box32-container{
+	background: #3d83df;
+	flex-basis: 41%;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 1.375em 2.5em 0;
+}
+.box311 h2,.box321 h2{
+	font-size: .875em;
+    font-weight: 400;
+    margin: 0;
+    color: hsla(0,0%,100%,.7);
+}
+.box311 h1,.box321 h1{
+	font-size: 1.625em;
+    color: #fff;
+    margin-top: .3em;
+}
+.box312{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.sel1{
+/*	width: 100%;
+    background: white;
+    border: 0;
+    padding: 0 3.5em 0 1.5em;*/
+    border-radius: 5px;
+    height: 40px;
+}
+.box322 figure img{
+	margin-left: 50%;
+	height: auto;
+	
+}
+div{
+	border: 1px solid black;
+}
+ul li a svg{
+	height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+    opacity: 0.2;
+}
+ul li a svg:hover{
+	fill: #00b39b;
+	opacity: 1
+}
+

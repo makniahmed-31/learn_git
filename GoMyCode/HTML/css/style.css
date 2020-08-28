@@ -1,0 +1,51 @@
+header{
+	text-align: center;
+	display: flex;
+}
+header p{
+	margin-top: 100px;
+	font-family: roboto;
+}
+p{
+	font-family: roboto;
+}
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    margin: 50px;
+
+}
+nav.menu-nav ul li.btn a{
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 30px;
+}
+nav.menu-nav ul li.btn:hover a{
+	color: blue;
+	background-color: white;
+}
+nav.menu-nav{
+	text-align: center;
+}
+body{
+	text-align: center;
+}
+footer{
+	text-align: center;
+	color: white;
+	background-color: blue;
+}
+div#content div{
+	display: inline-block;
+	margin: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+} 
+form{
+	display: inline-block;
+	text-align: center;
+}
